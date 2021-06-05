@@ -1,6 +1,4 @@
-import com.objectmaster.classes.Ninja;
-import com.objectmaster.classes.Samurai;
-import com.objectmaster.classes.Wizard;
+import com.objectmaster.*;
 
 public class ClassesTest {
 

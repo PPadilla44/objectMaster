@@ -1,6 +1,5 @@
-package com.objectmaster.classes;
+package com.objectmaster;
 
-import com.objectmaster.Human;
 
 public class Wizard extends Human {
 
@@ -10,12 +9,12 @@ public class Wizard extends Human {
     }
 
     public void heal(Human human){
-        human.setHealth(human.getHealth()+this.intelligence);
+        human.health += this.intelligence;
     }
 
     public void fireball(Human human) {
         int damage = this.intelligence * 3;
-        human.setHealth(human.getHealth()-damage);
+        human.health -= damage;
     }
 
     @Override

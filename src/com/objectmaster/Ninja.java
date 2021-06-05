@@ -1,5 +1,4 @@
-package com.objectmaster.classes;
-import com.objectmaster.Human;
+package com.objectmaster;
 
 public class Ninja extends Human {
 
@@ -8,7 +7,7 @@ public class Ninja extends Human {
     }
 
     public void steal(Human human) {
-        human.setHealth(human.getHealth()-this.stealth);
+        human.health -= this.stealth;
         this.health += this.stealth;
     }
 

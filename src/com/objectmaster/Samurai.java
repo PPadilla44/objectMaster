@@ -1,6 +1,4 @@
-package com.objectmaster.classes;
-
-import com.objectmaster.Human;
+package com.objectmaster;
 
 public class Samurai extends Human{
 
@@ -12,7 +10,7 @@ public class Samurai extends Human{
     }
 
     public void deathBlow(Human human) {
-        human.setHealth(0);
+        human.health = 0;
         this.health/=2;
     }
 
