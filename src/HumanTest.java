@@ -6,13 +6,14 @@ public class HumanTest {
         Human pablo = new Human();
         Human rheanna = new Human();
 
-        System.out.println(pablo.getHealth());
-        System.out.println(rheanna.getHealth());
+        System.out.println(pablo);
+        System.out.println(rheanna);
 
+        System.out.println("ATTACK");
         pablo.attack(rheanna);
 
-        System.out.println(pablo.getHealth());
-        System.out.println(rheanna.getHealth());
+        System.out.println(pablo);
+        System.out.println(rheanna);
     }
 
 }

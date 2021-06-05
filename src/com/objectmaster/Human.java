@@ -7,6 +7,7 @@ public class Human {
     protected int intelligence = 3;
     protected int health = 100;
 
+
     public int getHealth() {
         return health;
     }
@@ -41,6 +42,14 @@ public class Human {
 
     public void attack(Human human){
         human.health -= this.strength;
+    }
+
+    @Override
+    public String toString(){
+        return "Health: " + health +
+                "\tStealth: " + stealth +
+                "\tIntelligence: " + intelligence +
+                "\tStrength: " + strength;
     }
 
 }
